@@ -231,8 +231,7 @@ anchor = "smart"
 
   # used in layouts/partials/footer.html
   # uses markdownify
-  #aboutUs   = '''
-  关于我们   = '''
+  aboutUs   = '''
 Vel illum **dolore** eu
 
   * feugiat nulla
