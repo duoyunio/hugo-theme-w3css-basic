@@ -114,13 +114,13 @@ anchor = "smart"
 # provide translations in i18n/*.yaml
 [[menu.main]]
   weight = 1
-  name   = "Home"
+  name   = "主页"
   url    = "/index.html"
   pre    = "fas fa-home"
 
 [[menu.main]]
   weight = 2
-  name   = "Contact"
+  name   = "联系"
   url    = "/contact"
   pre    = "far fa-address-card"
 
@@ -231,7 +231,8 @@ anchor = "smart"
 
   # used in layouts/partials/footer.html
   # uses markdownify
-  aboutUs   = '''
+  #aboutUs   = '''
+  关于我们   = '''
 Vel illum **dolore** eu
 
   * feugiat nulla
