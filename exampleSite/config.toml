@@ -231,7 +231,7 @@ anchor = "smart"
 
   # used in layouts/partials/footer.html
   # uses markdownify
-  关于我们   = '''
+  About us   = '''
 ### el illum **dolore** eu ###
 创建无处不在的数字化
   * 企业数字化转型加速器
