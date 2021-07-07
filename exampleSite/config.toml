@@ -133,13 +133,13 @@ anchor = "smart"
 # demo submenu
 [[menu.main]]
   weight = 4
-  name   = "Theme"
+  name   = "主题"
   pre    = "fas fa-info-circle"
   identifier = "theme"
 
 [[menu.main]]
   weight = 1
-  name   = "About"
+  name   = "关于"
   #url    = "/categories/this-theme/"
   url    = "/pages/hugo-theme-w3css-basic/"
   pre    = "fas fa-info fa-fw"
@@ -147,14 +147,14 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 2
-  name   = "Images"
+  name   = "图片"
   url    = "/pages/hugo-theme-w3css-basic/images-taken-from/"
   pre    = "far fa-images fa-fw"
   parent = "theme"
 
 [[menu.main]]
   weight = 3
-  name   = "Showcase"
+  name   = "演示"
   url    = "/pages/showcase/"
   pre    = "fas fa-eye fa-fw"
   parent = "theme"
@@ -163,13 +163,13 @@ anchor = "smart"
 
 [[menu.main]]
   weight = 5
-  name   = "Blog"
+  name   = "博客"
   url    = "/blog"
   pre    = "fas fa-rss"
 
 [[menu.main]]
   weight = 6
-  name   = "FAQ"
+  name   = "问答"
   url    = "/faq"
   pre    = "far fa-question-circle"
 
@@ -178,7 +178,7 @@ anchor = "smart"
 [[menu.topbar]]
   weight   = 1
   name     = "GitHub"
-  url      = "https://github.com/it-gro/hugo-theme-w3css-basic"
+  url      = "https://github.com/123dog"
   pre      = "fab fa-github"
 
 [[menu.topbar]]
@@ -203,7 +203,7 @@ anchor = "smart"
   weight   = 5
   name     = "Email"
   url      = "#address"
-# url      = "mailto:info@example.com"
+# url      = "mailto:hi@123.dog"
   pre      = "fas fa-envelope"
 
 [[menu.topbar]]
@@ -231,22 +231,21 @@ anchor = "smart"
 
   # used in layouts/partials/footer.html
   # uses markdownify
-  aboutUs   = '''
-Vel illum **dolore** eu
-
-  * feugiat nulla
-  * facilisis at vero.
+  关于我们   = '''
+### el illum **dolore** eu ###
+创建无处不在的数字化
+  * 企业数字化转型加速器
+  * 创建无处不在的数字化.
 
 Nam vestibulum accumsan nisl.
 
               '''
 
   address   = '''
-**nobis eleifend**          
-**Soluta nobis eleifend**   
-illum dolore eu feugiat     
-3612 Steffisburg            
-consectetuer adipiscing     
+**北京市**          
+**朝阳区**   
+朝阳门外大街    
+甲10号              
 
 **Switzerland**
               '''
